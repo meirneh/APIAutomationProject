@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression tests Suite">
+	<test name="apiNetace.BesDeviceModelsDevices">
+		<classes>
+			<class name="apiNetace.BesDeviceModelsDevices" />
+		</classes>
+	</test>
+	<test name="apiNetace.GetDevices">
+		<classes>
+			<class name="apiNetace.GetDevices" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="apiNetace.Getlinks">
+		<classes>
+			<class name="apiNetace.GetLinks" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
